@@ -264,10 +264,5 @@ Tabs.Main1:AddButton({
       getgenv().Team = "Pirates" loadstring(game:HttpGet("https://raw.githubusercontent.com/trongdeptraihucscript/Main/refs/heads/main/Hoangtrongdepzai.lua"))()
     end
 })
-Tabs.Main1:AddButton({
-    Title="NANA HUb dùng đầu buồi",
-    Callback=function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/NaNacuti/nanabeo/refs/heads/main/NaNaTVHub.lua"))()
-    end
-})
+
     
