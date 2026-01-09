@@ -264,5 +264,23 @@ Tabs.Main1:AddButton({
       getgenv().Team = "Pirates" loadstring(game:HttpGet("https://raw.githubusercontent.com/trongdeptraihucscript/Main/refs/heads/main/Hoangtrongdepzai.lua"))()
     end
 })
-
-    
+Tabs.Main1:AddButton({
+    Title="Leaf hub",
+    Callback=function()
+      repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+loadstring(game:HttpGet("https://leaf-zeta.onrender.com/api/script"))()
+    end
+})
+Tabs.Main1:AddButton({
+    Title="QuantumOnyx Hub",
+    Callback=function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/QuantumOnyx.lua"))()
+    end
+})
+Tabs.Main1:AddButton({
+    Title="RUBU v5 HUB"
+    Callback=function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Bubu2k/Rubutv/refs/heads/main/rubuhubv5.lua"))()
+    end
+})
+      
